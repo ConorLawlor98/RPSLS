@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors Lizard Spock</h1>
+  </header>
+  <div class="scoreboard">
+    <div class="labels" id="user-label">Player</div>
+    <div class="labels" id="comp-label">Sheldon</div>
+    <span id="user-score">0</span> : <span id=comp-score>0</span>
+  </div>
+
+  <div class="result-msg"><p>Make a selection!</p></div>
+  <div class="options">
+    <div class="option" id="rock"><img src="/images/icons8-hand-rock-48.png" alt=""></div>
+    <div class="option" id="paper"><img src="/images/icons8-hand-48.png" alt=""></div>
+    <div class="option" id="scissors"><img src="/images/icons8-hand-scissors-48.png" alt=""></div>
+    <div class="option" id="lizard"><img src="/images/icons8-hand-lizard-48.png" alt=""></div>
+    <div class="option" id="spock"><img src="/images/icons8-spock-48.png" alt=""></div>
+  </div>
+
+  <div class="game-rules">
+    <div class="end-game">End Game</div>
+  </div>
+
+  <hr>
+
+  <div class="info"><h2>The Rules?</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Kov2G0GouBw?start=43" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Scissors cuts paper. Paper covers rock. Rock crushes lizard. Lizard poisons Spock. Spock smashes scissors.</p> 
+    <p>Scissors decapitates lizard. Lizard eats paper. Paper disproves Spock. Spock vaporizes rock. And as it always has....</p>
+    <p>Rock crushes scissors.</p>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
